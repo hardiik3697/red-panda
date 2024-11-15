@@ -1,1 +1,1 @@
-<p align="center" style="font-color:red;">Red Panda</p>
+<p align="center" style="color:red;">Red Panda</p>
