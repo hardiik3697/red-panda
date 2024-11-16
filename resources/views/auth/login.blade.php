@@ -13,11 +13,11 @@
     <div class="w-px-400 mx-auto pt-5 pt-lg-0">
         <h4 class="mb-1">Welcome to {{ env('APP_NAME') }}</h4>
 
-        <form id="formAuthentication" class="mb-5" action="index.html" method="GET">
+        <form id="formAuthentication" class="mb-5" action="/" method="post">
             <div class="form-floating form-floating-outline mb-5">
-                <input type="text" class="form-control" id="email" name="email-username"
-                    placeholder="Enter your email or username" autofocus />
-                <label for="email">Email or Username</label>
+                <input type="text" class="form-control" id="email" name="email"
+                    placeholder="Enter your email address" autofocus />
+                <label for="email">Email Address</label>
             </div>
             <div class="mb-5">
                 <div class="form-password-toggle">
@@ -37,11 +37,11 @@
                     <input class="form-check-input" type="checkbox" id="remember-me" />
                     <label class="form-check-label" for="remember-me"> Remember Me </label>
                 </div>
-                <a href="auth-forgot-password-cover.html" class="float-end mb-1 mt-2">
+                <a href="/" class="float-end mb-1 mt-2">
                     <span>Forgot Password?</span>
                 </a>
             </div>
-            <button class="btn btn-primary d-grid w-100">Sign in</button>
+            <button type="submit" class="btn btn-primary d-grid w-100">Sign in</button>
         </form>
     </div>
 </div>

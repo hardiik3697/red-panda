@@ -21,4 +21,10 @@
 <link rel="stylesheet" href="{{ asset('assets/vendor/libs/apex-charts/apex-charts.css') }}"/>
 <link rel="stylesheet" href="{{ asset('assets/vendor/libs/swiper/swiper.css') }}" />
 
+<style>
+    .footer .content-footer{
+        margin-top: auto;
+    }
+</style>
+
 @yield('styles')

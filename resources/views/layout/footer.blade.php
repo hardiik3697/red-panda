@@ -2,8 +2,9 @@
     <div class="container-xxl">
         <div class="footer-container d-flex align-items-center justify-content-between py-4 flex-md-row flex-column">
             <div class="text-body mb-2 mb-md-0">
+                developed by {{ env('APP_NAME') }} Team
                 <script>
-                    document.write(new Date().getFullYear());
+                    // document.write(new Date().getFullYear());
                 </script>
             </div>
         </div>
